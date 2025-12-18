@@ -1,6 +1,4 @@
-function volume_sphere() {
-    //Write your code here
-   function volume_sphere(e) {
+function volume_sphere(e) {
     //Write your code here
     e.preventDefault();
   let r=document.getElementById('radius').value;
@@ -11,9 +9,6 @@ function volume_sphere() {
   else
   v.value= ((4/3)*(Math.PI)*r*r*r).toFixed(4);
     
-} 
-
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
 } 
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
